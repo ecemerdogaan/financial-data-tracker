@@ -9,3 +9,4 @@ stocks.db
 Migrations/
 
 appsettings.Development.json
+.DS_Store

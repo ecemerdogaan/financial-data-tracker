@@ -1,16 +1,12 @@
 # Financial Data Tracker
 
-## 🚀 Overview
+## Overview
 
-This project is a Financial Data Tracker API developed as part of the Rasyonet Internship case study.
+Financial Data Tracker is a .NET Web API project developed for the Rasyonet Internship case study.
 
-It demonstrates backend development skills including:
-- REST API design
-- External API integration
-- Database management
-- Layered architecture (Controller-Service-Repository)
+The application fetches current stock price data from Finnhub, stores the results in a local SQLite database, and provides basic CRUD and analytics endpoints through Swagger.
 
-## Technologies Used
+## Technologies
 
 - .NET Web API
 - Entity Framework Core
@@ -21,23 +17,21 @@ It demonstrates backend development skills including:
 
 ## Features
 
-- Add stock price manually
-- Fetch current stock price from Finnhub API
-- Store stock price records in SQLite
+- Add stock price records manually
+- Fetch current stock prices from Finnhub
+- Store price history in SQLite
 - List all stock price records
-- Filter records by stock symbol
+- Filter stock prices by symbol
 - Delete stock price records
 - Calculate average price by symbol
-- Get highest price by symbol
-- Get lowest price by symbol
+- Get highest and lowest price by symbol
 
 ## Project Structure
 
 ```text
-Controllers/
-Data/
-DTOs/
-External/
-Models/
-Repositories/
-Services/
+Controllers/     API endpoints
+Data/            Database context
+External/        Finnhub API client
+Models/          Entity models
+Repositories/    Database access layer
+Services/        Business logic layer

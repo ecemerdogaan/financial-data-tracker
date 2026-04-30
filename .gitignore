@@ -10,3 +10,4 @@ Migrations/
 
 appsettings.Development.json
 .DS_Store
+appsettings.json

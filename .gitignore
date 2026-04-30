@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+stocks.db
+Migrations/
+
+appsettings.Development.json

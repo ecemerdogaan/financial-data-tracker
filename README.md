@@ -1,8 +1,14 @@
 # Financial Data Tracker
 
-A simple .NET Web API project developed for the Rasyonet Internship assignment.
+## 🚀 Overview
 
-The application fetches stock price data from the Finnhub API, stores it in a SQLite database, and provides basic CRUD and analytics endpoints.
+This project is a Financial Data Tracker API developed as part of the Rasyonet Internship case study.
+
+It demonstrates backend development skills including:
+- REST API design
+- External API integration
+- Database management
+- Layered architecture (Controller-Service-Repository)
 
 ## Technologies Used
 
